@@ -13,6 +13,7 @@
 		2C733B02255D82FC0033CA99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C733B00255D82FC0033CA99 /* Main.storyboard */; };
 		2C733B04255D82FD0033CA99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C733B03255D82FD0033CA99 /* Assets.xcassets */; };
 		2C733B07255D82FD0033CA99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C733B05255D82FD0033CA99 /* LaunchScreen.storyboard */; };
+		2C733B0F255D85C10033CA99 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C733B0E255D85C10033CA99 /* RegistrationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2C733B03255D82FD0033CA99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C733B06255D82FD0033CA99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C733B08255D82FD0033CA99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C733B0E255D85C10033CA99 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				2C733AFA255D82FC0033CA99 /* AppDelegate.swift */,
 				2C733AFC255D82FC0033CA99 /* SceneDelegate.swift */,
 				2C733AFE255D82FC0033CA99 /* ViewController.swift */,
+				2C733B0E255D85C10033CA99 /* RegistrationViewController.swift */,
 				2C733B00255D82FC0033CA99 /* Main.storyboard */,
 				2C733B03255D82FD0033CA99 /* Assets.xcassets */,
 				2C733B05255D82FD0033CA99 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				2C733AFF255D82FC0033CA99 /* ViewController.swift in Sources */,
 				2C733AFB255D82FC0033CA99 /* AppDelegate.swift in Sources */,
+				2C733B0F255D85C10033CA99 /* RegistrationViewController.swift in Sources */,
 				2C733AFD255D82FC0033CA99 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.swift.SergeyGolenko.MyLocationsApp.Delegate-------------------RegistrationViewController-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.swift.SergeyGolenko.MyLocationsApp.Delegate-------------------RegistrationViewController-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
